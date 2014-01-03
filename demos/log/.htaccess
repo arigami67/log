@@ -1,0 +1,12 @@
+php_value error_log  "C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\log\demos\log\php_error.log"
+php_flag display_errors on 
+AddDefaultCharset UTF-8
+
+RewriteEngine on
+
+# if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# otherwise forward it to index.php
+RewriteRule . index.php

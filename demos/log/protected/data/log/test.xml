@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<tablet>
+    <system>
+        <name>Apple</name>
+        <os>Android</os>
+        <nos>4</nos>
+        <ram>2</ram>
+        <bim>32</bim>
+        <bims>32</bims>
+    </system>
+</tablet>
