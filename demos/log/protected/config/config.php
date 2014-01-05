@@ -8,7 +8,7 @@
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'Yii Blog Demo',
-
+        'theme'=>'basic',
 	// preloading 'log' component
 	'preload'=>array('log'),
 
@@ -42,7 +42,8 @@ return array(
                         'showScriptName'=>'false', 
                         'urlFormat'=>'path',
                         'rules' => array(
-                            'log' => 'log/index', 
+                            'log' => 'log/index',
+                            'mw' => 'mapwiki/index', 
                            # 'index' => 'site/index', 
                         ),
 		),
